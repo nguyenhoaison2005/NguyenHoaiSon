@@ -1,0 +1,19 @@
+:root {
+    /* MÀU */
+    --bg-main: #c7e3b5;
+    --menu-bg: #6fbf73;
+    --sale-bg: #f57f7f;
+    --text-color: #000;
+
+    /* FONT */
+    --font-main: Arial, sans-serif;
+
+    /* SIZE */
+    --banner-height: 220px;
+    --img-width: 120px;
+    --img-height: 80px;
+
+    /* SPACING */
+    --padding-main: 20px;
+    --radius: 8px;
+}

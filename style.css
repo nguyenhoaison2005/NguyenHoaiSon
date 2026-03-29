@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: var(--font-main);
+    background: var(--bg-main);
+}
+
+/* MENU */
+.menu {
+    background: var(--menu-bg);
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+}
+
+.sale {
+    background: var(--sale-bg);
+    width: 50%;
+    padding: 30px;
+}
+
+.sale h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner img {
+    width: 50%;
+    height: var(--banner-height);
+    object-fit: cover;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-main);
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: var(--img-width);
+    height: var(--img-height);
+    object-fit: cover;
+    border-radius: var(--radius);
+    transition: 0.3s;
+}
+
+/* Hover cho đẹp */
+.item img:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+.footer {
+    background: var(--sale-bg);
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
